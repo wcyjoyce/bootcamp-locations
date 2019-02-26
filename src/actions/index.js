@@ -6,3 +6,10 @@ export function setCities() {
     payload: cities
   }
 }
+
+export function activeCity(city) {
+  return {
+    type: "ACTIVE_CITY",
+    payload: city
+  }
+}

@@ -32,4 +32,4 @@ function mapReduxStateToProps(state) {
   };
 }
 
-export default connect (mapReduxStateToProps, mapDispatchToProps)(List);
+export default connect(mapReduxStateToProps, mapDispatchToProps)(List);

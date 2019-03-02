@@ -23,11 +23,8 @@ class ActiveCity extends Component {
   }
 }
 
-
 function mapStateToProps(state) {
-  return {
-    activeCity: state.activeCity
-  }
+  return { activeCity: state.activeCity }
 }
 
 export default connect(mapStateToProps)(ActiveCity);

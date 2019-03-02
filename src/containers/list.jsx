@@ -20,16 +20,11 @@ class List extends Component {
 }
 
 function mapDispatchToProps(dispatch) {
-  return bindActionCreators(
-    { setCities: setCities },
-    dispatch
-  );
+  return bindActionCreators({ setCities: setCities }, dispatch);
 }
 
 function mapReduxStateToProps(state) {
-  return {
-    cities: state.cities
-  };
+  return { cities: state.cities };
 }
 
 export default connect(mapReduxStateToProps, mapDispatchToProps)(List);

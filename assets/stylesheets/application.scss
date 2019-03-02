@@ -15,7 +15,7 @@ body {
   }
 
   .text {
-    padding: 0px 10px;
+    padding: 0px 15px;
 
     h1 {
       text-transform: lowercase;
@@ -45,12 +45,17 @@ body {
 
   .cities {
     width: 30%;
-  }
 
-  .selected {
-    background: #FFEAE8;
-    color: red;
-    font-weight: 700;
+    .list-group-item {
+      background-color: transparent;
+      cursor: pointer;
+    }
+
+    .selected {
+      background: #FFEAE8;
+      color: red;
+      font-weight: 700;
+    }
   }
 
   .active-city {
@@ -70,9 +75,4 @@ body {
       width: 100%;
     }
   }
-}
-
-.list-group-item {
-  background-color: transparent;
-  cursor: pointer;
 }

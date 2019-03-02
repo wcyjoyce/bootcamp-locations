@@ -3,7 +3,7 @@ const activeCityReducer = (state, action) => {
     return null;
   }
 
-  if (action.type === "ACTIVE_CITY") {
+  if (action.type === "SELECT_CITY") {
     return action.payload;
   } else {
     return state;

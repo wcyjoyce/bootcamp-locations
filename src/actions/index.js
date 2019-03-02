@@ -7,9 +7,9 @@ export function setCities() {
   }
 }
 
-export function activeCity(city) {
+export function selectCity(city) {
   return {
-    type: "ACTIVE_CITY",
+    type: "SELECT_CITY",
     payload: city
   }
 }
